@@ -1,0 +1,39 @@
+//1
+
+/*CREATE TABLE Books (
+    BookID INT PRIMARY KEY,
+    Title VARCHAR(100),
+    Author VARCHAR(50),
+    PublishedYear INT
+);
+
+ALTER TABLE Books ADD ISBN VARCHAR(13);
+
+ALTER TABLE Books DROP COLUMN PublishedYear;*/
+
+//2
+/*CREATE TABLE Students (
+    StudentID INT PRIMARY KEY,
+    Name VARCHAR(50),
+    Age INT,
+    Grade VARCHAR(2)
+);
+
+INSERT INTO Students (StudentID, Name, Age, Grade)
+VALUES 
+(101, 'John Smith', 15, 'A'),
+(102, 'Jane Doe', 16, 'B'),
+(103, 'Alice Lee', 14, 'A');
+
+SELECT Name
+FROM Students
+WHERE Age > 15;
+
+INSERT INTO Students (StudentID, Name, Age, Grade)
+VALUES (104, 'Tom Brown', 15, 'C');
+
+UPDATE Students
+SET Grade = 'A+'
+WHERE Name = 'Jane Doe';
+DELETE FROM Students
+WHERE Grade = 'C';*/
